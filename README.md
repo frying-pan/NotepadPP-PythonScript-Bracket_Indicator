@@ -38,3 +38,4 @@ C:\Program Files\Notepad++\plugins\PythonScript\scripts
 # Versions :
 
 FP_BracketIndicator_Callback_v1_0.py
+* requires the library FP__Lib_Edit.py included in the same folder
