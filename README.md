@@ -22,7 +22,7 @@ Features :
 
 This script can be run at Notepad++ startup (folders below are those of a local installation) : 
 
-* copy the FP_BracketIndicator_Callback .py script file in :
+* copy the FP_BracketIndicator_Callback .py script file (and the needed libraries files) in :
 
 C:\Users\[username]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts
 
