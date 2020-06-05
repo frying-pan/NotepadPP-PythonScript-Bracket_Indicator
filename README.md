@@ -1,6 +1,6 @@
 # Bracket_Indicator
 
-PythonScript that highlights the bracket pair () [] {} <> and/or the text between them,
+PythonScript that highlights the bracket pair () [] {} + <> and/or the text between them,
 
 at the active selection/cursor position, left-most pair in case of mismatch (Notepad++ CALLBACK)
 
@@ -10,7 +10,7 @@ using PythonScript plugin 1.5.2 from https://github.com/bruderstein/PythonScript
 
 
 Features :
-* highlight the bracket pair () [] {} <> (and/or the text inside) containing the active selection/caret
+* highlight the bracket pair () [] {} + <> and/or the text between them containing the active selection/caret
 * configurable indicator style (shape, background color, outline color)
 * follow Scintilla bracket matching rule
 * highlight can be de-activated/re-activated/reconfigured by re-rerunning the script
