@@ -1,12 +1,12 @@
 # Bracket_Indicator
 
-PythonScript that highlights the bracket pair, () [] {} and possibly <>, containing the active selection/caret
+PythonScript that highlights the bracket pair () [] {} <> and/or the text between them,
 
-in Notepad++ when the script is run from Notepad++ (with PythonScript plugin installed)
+at the active selection/cursor position, left-most pair in case of mismatch (Notepad++ CALLBACK)
 
-Tested with Notepad++ 7.8.2 64 bits, with PythonScript plugin 1.5.2,
+Tested with Notepad++ 7.8.2 64 bits, on Windows 8.1 64 bits (NOT tested with Notepad++ 32 Bits but should be compatible)
 
-on Windows 8.1 64 bits (NOT tested with Notepad++ 32 Bits but should be compatible)
+using PythonScript plugin 1.5.2 from https://github.com/bruderstein/PythonScript/releases/ (based on python 2.7).
 
 
 Features :
