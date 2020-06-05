@@ -1,6 +1,6 @@
 # Bracket_Indicator
 
-PythonScript that highlights the bracket pair () [] {} (and possibly the text inside) containing the active selection/caret
+PythonScript that highlights the bracket pair, () [] {} and possibly <>, containing the active selection/caret
 
 in Notepad++ when the script is run from Notepad++ (with PythonScript plugin installed)
 
