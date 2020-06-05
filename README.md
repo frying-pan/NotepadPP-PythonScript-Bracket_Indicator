@@ -10,7 +10,7 @@ on Windows 8.1 64 bits (NOT tested with Notepad++ 32 Bits but should be compatib
 
 
 Features :
-* highlight the bracket pair () [] {} (and possibly the text inside) containing the active selection/caret
+* highlight the bracket pair () [] {} <> (and/or the text inside) containing the active selection/caret
 * configurable indicator style (shape, background color, outline color)
 * follow Scintilla bracket matching rule
 * highlight can be de-activated/re-activated/reconfigured by re-rerunning the script
@@ -39,3 +39,7 @@ C:\Program Files\Notepad++\plugins\PythonScript\scripts
 
 FP_BracketIndicator_Callback_v1_0.py
 * requires the library FP__Lib_Edit.py included in the same folder
+
+FP_BracketIndicator_Callback_v1_1.py
+* significant performance update, especially for very long brackets in very long lines (1000's of characters long)
+* added <> angle brackets highlight as an option
