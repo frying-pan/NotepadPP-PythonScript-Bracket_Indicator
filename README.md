@@ -22,7 +22,7 @@ Features :
 
 This script can be run at Notepad++ startup (folders below are those of a local installation) : 
 
-* copy the FP_BracketIndicator_Callback .py script file (and the needed library file) in :
+* copy the FP_BracketIndicator_Callback .py script file in :
 
 C:\Users\[username]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts
 
@@ -43,3 +43,7 @@ FP_BracketIndicator_Callback_v1_0.py
 FP_BracketIndicator_Callback_v1_1.py
 * significant performance update, especially for very long brackets in very long lines (1000's of characters long)
 * added <> angle brackets highlight as an option
+
+FP_BracketIndicator_Callback_v1_2.py
+* removed dependancy to FP__Lib_Edit.py, FP_BracketIndicator_Callback is now a single file script
+* added option : only select <> angle brackets when they are on the same line
