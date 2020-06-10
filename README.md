@@ -45,5 +45,5 @@ FP_BracketIndicator_Callback_v1_1.py
 * added <> angle brackets highlight as an option
 
 FP_BracketIndicator_Callback_v1_2.py
-* removed dependancy to FP__Lib_Edit.py, FP_BracketIndicator_Callback is now a single file script
+* removed dependency to FP__Lib_Edit.py, FP_BracketIndicator_Callback is now a single file script
 * added option : only highlight <> angle brackets when they are on the same line, to limit unwanted matchings
