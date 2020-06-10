@@ -46,4 +46,4 @@ FP_BracketIndicator_Callback_v1_1.py
 
 FP_BracketIndicator_Callback_v1_2.py
 * removed dependancy to FP__Lib_Edit.py, FP_BracketIndicator_Callback is now a single file script
-* added option : only select <> angle brackets when they are on the same line
+* added option : only highlight <> angle brackets when they are on the same line, to limit unwanted matchings
