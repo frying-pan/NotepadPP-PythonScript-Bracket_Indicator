@@ -1,8 +1,8 @@
 # Bracket_Indicator
 
-PythonScript that highlights the bracket pair () [] {} + <> and/or the text between them,
+PythonScript that highlights the bracket pair () [] {} + optional <>, and/or the content between them,
 
-at the active selection/cursor position, left-most pair in case of mismatch (Notepad++ CALLBACK)
+around the caret or the active selection, left-most pair in case of mismatch (Notepad++ CALLBACK)
 
 Tested with Notepad++ 7.8.2 64 bits, on Windows 8.1 64 bits (NOT tested with Notepad++ 32 Bits but should be compatible)
 
@@ -10,12 +10,11 @@ using PythonScript plugin 1.5.2 from https://github.com/bruderstein/PythonScript
 
 
 Features :
-* highlight the bracket pair () [] {} + <> and/or the text between them containing the active selection/caret
+* highlight the bracket pair () [] {} + optional <> and/or the text between them containing the caret/active selection
 * configurable indicator style (shape, background color, outline color)
-* follow Scintilla bracket matching rule
+* follow Scintilla bracket matching rule (brackets must be of the same style)
 * highlight can be de-activated/re-activated/reconfigured by re-rerunning the script
-* for performance reasons : will only hightlight brackets if both are on screen (but possibly hidden/folded)
-* glitch : when code is folded/unfolded bracket highlight will not update immediately if brackets get in/out of screen view
+* performance : default options will limit highlight to a limited range around the caret/middle of active selection
 
 
 # Install :
@@ -47,3 +46,7 @@ FP_BracketIndicator_Callback_v1_1.py
 FP_BracketIndicator_Callback_v1_2.py
 * removed dependency to FP__Lib_Edit.py, FP_BracketIndicator_Callback is now a single file script
 * added option : only highlight <> angle brackets when they are on the same line, to limit unwanted matchings
+
+FP_BracketIndicator_Callback_v1_3.py
+* performance : changed the range of bracket search around the caret to a maximum of characters and document lines
+* performance : replaced the built-in braceMatch() function by a custom search function that accepts a limited range of search
