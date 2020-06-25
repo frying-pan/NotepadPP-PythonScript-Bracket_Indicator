@@ -24,7 +24,7 @@ t_option_rgb_color		= (255, 0, 0)	# INTEGER TRIPLET (0-255, 0-255, 0-255)	: (Red
 i_option_alpha			= 24			# INTEGER 0-255							: box background color intensity (0 : transparent, 255 : opaque)
 i_option_outline_alpha	= 48			# INTEGER 0-255							: box outline color intensity (0 : transparent, 255 : opaque)
 # AT LEAST 1 of the 2 following options ('highlight brackets' or 'highlight content') must be enabled for highlighting to occur !
-i_option_highlight_brackets	= 0	# set to INTEGER 1 to enable option : highlight the brackets () [] {} + optional <>
+i_option_highlight_brackets	= 1	# set to INTEGER 1 to enable option : highlight the brackets () [] {} + optional <>
 i_option_highlight_content	= 1	# set to INTEGER 1 to enable option : AND/OR highlight the content between the brackets
 # miscellaneous options
 i_option_highlight_angle	= 1	# set to INTEGER 1 to enable option : also highlight <> angle brackets (in addition to () [] {})
