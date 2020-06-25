@@ -50,3 +50,6 @@ FP_BracketIndicator_Callback_v1_2.py
 FP_BracketIndicator_Callback_v1_3.py
 * performance : changed the range of bracket search around the caret to a maximum of characters and document lines
 * performance : replaced the built-in braceMatch() function by a custom search function that accepts a limited range of search
+
+FP_BracketIndicator_Callback_v1_4.py
+* minor esthetic and performance update
