@@ -11,7 +11,7 @@ using PythonScript plugin 1.5.2 from https://github.com/bruderstein/PythonScript
 
 Features :
 * highlight the bracket pair () [] {} + optional <> and/or the text between them containing the caret/active selection
-* 2 configurable indicators style for the brackets and their content (shape, background color, outline color)
+* 2 configurable highlight styles for the brackets and their content (shape, background color, outline color)
 * follow Scintilla bracket matching rule (brackets must be of the same style)
 * highlight can be de-activated/re-activated/reconfigured by re-rerunning the script
 * performance : default options will limit highlight to a limited range around the caret/middle of active selection
