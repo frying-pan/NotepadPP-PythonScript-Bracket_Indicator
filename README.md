@@ -53,3 +53,7 @@ FP_BracketIndicator_Callback_v1_3.py
 
 FP_BracketIndicator_Callback_v1_4.py
 * minor esthetic and performance update
+
+FP_BracketIndicator_Callback_v1_5.py
+* added option : use 2 different highlights for the brackets and their content
+* bug fix : some issues in highlights clearing/updating
